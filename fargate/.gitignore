@@ -1,0 +1,14 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Exclude all .tfvars files, which might contain secret data, such as
+# password, private keys, and other sensitive information
+*.tfvars
+*.tfvars.json
+
+# Ignore any .terraform.lock.hcl files, which are generated when using terraform init with Terraform 0.14 and later
+.terraform.lock.hcl
